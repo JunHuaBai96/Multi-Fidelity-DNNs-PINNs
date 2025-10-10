@@ -6,17 +6,10 @@ Reference concept: `https://www.sciencedirect.com/science/article/pii/S002199911
 ## Quickstart (Windows PowerShell)
 
 ```bash
-# 1) 进入项目目录
-cd "C:\Users\17868\OneDrive\Desktop\DL\Multi-Fidelity-DNNs-PINNs\Multi-Fidelity-DNNs-PINNs"
-
-# 2) 创建并激活虚拟环境
+cd "--\Multi-Fidelity-DNNs-PINNs"
 python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
-
-# 3) 安装依赖（使用已固定版本）
 pip install -r requirements.txt
-
-# 4) 运行脚本（保存 PNG 到 linear_func.png）
 python mf_func.py
 ```
 
@@ -169,3 +162,4 @@ if __name__ == '__main__':
 
 
 If you use this repository, please cite the original multi-fidelity DNN concept paper linked above.
+
