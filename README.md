@@ -20,8 +20,6 @@ pip install -r requirements.txt
 python mf_func.py
 ```
 
-可选：若要运行一个最小示例，将如下脚本保存为 `run_minimal.py` 后执行 `python run_minimal.py`。
-
 ## Environment & Dependencies
 
 - Python 3.8+ (tested on Windows)
@@ -168,5 +166,6 @@ if __name__ == '__main__':
 - CPU/GPU: The script disables GPU by default via `CUDA_VISIBLE_DEVICES='-1'` for portability.
 
 ## Citation
+
 
 If you use this repository, please cite the original multi-fidelity DNN concept paper linked above.
