@@ -6,7 +6,7 @@ Reference concept: `https://www.sciencedirect.com/science/article/pii/S002199911
 ## Quickstart (Windows PowerShell)
 
 ```bash
-cd "--\Multi-Fidelity-DNNs-PINNs"
+cd .
 python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
